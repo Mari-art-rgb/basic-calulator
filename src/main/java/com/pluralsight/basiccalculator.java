@@ -12,7 +12,11 @@ public class basiccalculator {
         System.out.println("Enter another number: ");
         float numTwo = scanner.nextFloat();
 
-        float total = numOne + numTwo;
+        float total = numOne * numTwo;
+
+        System.out.println("Possible calculations:\n (A)dd \n (S)ubtract \n (M)ultiply \n (D)ivide")  ;
+        System.out.println("Please select an option: ");
+
 
         System.out.printf("Total is:  %2f", total);
 
