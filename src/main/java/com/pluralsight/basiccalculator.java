@@ -19,10 +19,10 @@ public class basiccalculator {
 
         System.out.println("Possible calculations:\n (A)dd \n (S)ubtract \n (M)ultiply \n (D)ivide")  ;
         System.out.println("Please select an option: ");
-        String userChoice = scanner.nextLine();
+        String operator = scanner.nextLine();
 
 
-        System.out.printf("Total is:  %2f", total);
+        System.out.printf(numOne + " * "  + numTwo  + " Total is:  %2f", total);
 
 
 
